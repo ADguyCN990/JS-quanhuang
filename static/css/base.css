@@ -1,0 +1,82 @@
+#kof {
+    height: 720px;
+    width: 1280px;
+    background-image: url('../image/素材/拳皇背景像素图/background.gif');
+    background-size: 100% 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#kof>.kof-head {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+}
+
+#kof>.kof-head>.kof-head-hp-0 {
+    height: 60%;
+    width: 43%;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border: white 5px solid;
+}
+
+#kof>.kof-head>.kof-head-timer {
+    margin-left: 2%;
+    width: 6%;
+    height: 100%;
+    line-height: 100.8px;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#kof>.kof-head>.kof-head-hp-1 {
+    height: 60%;
+    width: 43%;
+    margin: 0 2% 0 2%;
+    
+    box-sizing: border-box;
+    border: white 5px solid;
+}
+
+#kof>.kof-head>.kof-head-hp-1>.kof-head-hp-1-control-length {
+    background-color: #802A2A;
+    float: right;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#kof>.kof-head>.kof-head-hp-0>.kof-head-hp-0-control-length {
+    background-color: #385E0F;
+    /* float: left; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#kof>.kof-head>.kof-head-hp-1>.kof-head-hp-1-control-length>.kof-head-hp-1-control-length-inner {
+    background-color: red;
+    float: right;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#kof>.kof-head>.kof-head-hp-0>.kof-head-hp-0-control-length>.kof-head-hp-0-control-length-inner {
+    background-color: lightgreen;
+    /* float: left; */
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.music {
+    visibility: hidden;
+}
